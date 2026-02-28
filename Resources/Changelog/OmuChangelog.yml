@@ -2280,3 +2280,15 @@ Entries:
         damage, however..
   id: 286
   time: '2026-02-28T16:02:38.0000000+00:00'
+- author: Gab
+  changes:
+    - type: Add
+      message: >-
+        popups that show when dash weapons (rogue king's tail, warden's rapier)
+        fail to dash.
+    - type: Remove
+      message: autofire from dash weapons.
+    - type: Tweak
+      message: Warden's rapier can no longer dash while weightless. Go use a jetpack.
+  id: 287
+  time: '2026-02-28T16:02:57.0000000+00:00'
