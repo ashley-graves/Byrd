@@ -2512,3 +2512,11 @@ Entries:
       message: Oil packs no longer turn into bloodpacks when you split the stacks
   id: 316
   time: '2026-03-10T00:18:17.0000000+00:00'
+- author: raincall
+  changes:
+    - type: Fix
+      message: Avali now get survival boxes. The boxes have tinned meat too
+    - type: Fix
+      message: Xelthia gets the cool avali survival kit too
+  id: 317
+  time: '2026-03-10T02:46:06.0000000+00:00'
