@@ -1423,6 +1423,7 @@
   - SeniorOfficerJumpsuit
   - SeniorOfficerJumpskirt
   - TrooperUniform
+  - VeteranOfficerBlackJumpsuit # Goobstation
   - BlackRedUniform # OmuStation Addon
   - SecurityJumpsuitBlueDV # Omu
   - SecurityJumpskirtBlueDV # Omu
@@ -1455,6 +1456,7 @@
   - ArmorVestSlim
   - SecurityOfficerWintercoat
   - WinterCoatSeniorSecArmored # Goobstation
+  - VeteranOfficerArmor # Goobstation
   - WinterCoatSecSweaterDV # Omu
   - WinterCoatSecCoatDV # Omu
   - WinterGreatCoatSecCoatDV # Omu
