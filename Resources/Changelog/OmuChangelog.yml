@@ -3069,3 +3069,9 @@ Entries:
       message: 'Sergeant and Virologist Cyberbeast spawn with there respective mantles '
   id: 393
   time: '2026-04-04T06:14:00.0000000+00:00'
+- author: pinktanuki
+  changes:
+    - type: Fix
+      message: 'Sarin gas grenade is now syndicate level contraband '
+  id: 394
+  time: '2026-04-04T06:34:34.0000000+00:00'
