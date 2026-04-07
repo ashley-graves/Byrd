@@ -3217,3 +3217,9 @@ Entries:
       message: Fixed salv borgs being able to carry mech PKAs.
   id: 408
   time: '2026-04-07T14:24:04.0000000+00:00'
+- author: Nevec
+  changes:
+    - type: Fix
+      message: Fixed Thavens suffocating in space while using valid internals.
+  id: 409
+  time: '2026-04-07T15:35:25.0000000+00:00'
