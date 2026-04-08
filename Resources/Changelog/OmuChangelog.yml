@@ -3261,3 +3261,9 @@ Entries:
       message: Fixed Corpsman Cyberbeast mantle not showing up when worn.
   id: 415
   time: '2026-04-08T08:05:40.0000000+00:00'
+- author: Anui-Elxx
+  changes:
+    - type: Add
+      message: IPCs can now use hair and facial hair via NT-approved wigs.
+  id: 416
+  time: '2026-04-08T10:52:52.0000000+00:00'
