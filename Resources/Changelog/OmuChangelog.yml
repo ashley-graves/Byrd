@@ -3235,3 +3235,9 @@ Entries:
       message: Fixed bloodstream component text
   id: 411
   time: '2026-04-08T00:28:06.0000000+00:00'
+- author: raincall
+  changes:
+    - type: Add
+      message: Glow in the dark wave pulse markings for thaven
+  id: 412
+  time: '2026-04-08T00:39:05.0000000+00:00'
