@@ -43,3 +43,7 @@ All code in this codebase is released under the AGPL-3.0-or-later license. Each 
 Most media assets are licensed under [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) unless stated otherwise. Assets have their license and the copyright in the metadata file. [Example](https://github.com/space-wizards/space-station-14/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
 
 Note that some assets are licensed under the non-commercial [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) or similar non-commercial licenses and will need to be removed if you wish to use this project commercially.
+
+## Owner License Note
+In the event that the current owner of this git repository (Lukezurg22) violates the staff removal guidelines for the Byrd Station ruleset and fails to respond according to the guidelines set, the signature below affirms that they rescind all rights over any code or assets they have personally created for this repository to any license other than MIT. This does not apply to ported changes they have made. The owner is obligated to deliver this repository to a new owner should they fail to uphold standard ethics in its ownership set before them by the ruleset.
+<img width="518" height="198" alt="signature" src="https://github.com/user-attachments/assets/d91c6288-9c36-4619-a234-a4eb503df986" />
