@@ -1,0 +1,9 @@
+- files: ["chollima.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "John Harrison with the Wichita State University Chamber Players"
+  source: "https://freemusicarchive.org"
+
+- files: ["drunkensailor.ogg", "wellerman.ogg", "deadhorse.ogg", "haulawayjoe.ogg", "johnnyihardlyknewya.ogg", "dropofnelsonsblood.ogg", "piquelabaleine.ogg", "randydandy.ogg", "fishinthesea.ogg", "leaveherjohnny.ogg"]
+  license: "CC-BY-4.0"
+  copyright: "PGN Music"
+  source: "http://pgnmusic.com/"

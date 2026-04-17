@@ -1,0 +1,29 @@
+- type: entity
+  parent: BaseItem
+  id: PortableVinylPlayer
+  name: portable vinyl player
+  description: Listen to your vinyls on the go!
+  components:
+  - type: Sprite
+    sprite: _DV/Objects/Devices/tape_recorder.rsi # TODO: Give it a unique sprite
+    layers:
+    - state: empty
+  - type: Item
+    size: Small
+  - type: ItemSlots
+    slots:
+      vinyl:
+        name: vinyl
+        whitelist:
+          components:
+          - Vinyl
+  - type: ContainerContainer
+    containers:
+      vinyl: !type:ContainerSlot
+  - type: Appearance
+  - type: VinylPlayer
+  - type: Clothing
+    quickEquip: true
+    slots:
+    - ears
+    - neck
