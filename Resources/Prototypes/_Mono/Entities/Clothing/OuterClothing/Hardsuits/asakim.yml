@@ -46,15 +46,15 @@
       coefficients:
         Blunt: 0.5
         Slash: 0.65
-        Piercing: 0.3
+        Piercing: 0.35
         Heat: 0.4
         Radiation: 0
         Shock: 0.8
         Poison: 0.4
         Caustic: 0.4
   - type: ClothingSpeedModifier
-    walkModifier: 0.25
-    sprintModifier: 0.25
+    walkModifier: 0.35
+    sprintModifier: 0.35
   - type: HeldSpeedModifier
   - type: ToggleableClothing # Goobstation - Modsuits change - Mono - this is a solution for helmet attachment/cover to not fit on hardsuits
     clothingPrototypes:
@@ -67,9 +67,9 @@
   - type: DamageOnUnequip # DeltaV
     unequipDamage:
       types:
-        Blunt: 35
-        Slash: 35
-        Piercing: 35
+        Blunt: 50
+        Slash: 50
+        Piercing: 50
     unequipSound: "/Audio/_DV/Effects/breakingbones.ogg"
     screamOnUnequip: true
   - type: ModifyDelayedKnockdown # Omu
