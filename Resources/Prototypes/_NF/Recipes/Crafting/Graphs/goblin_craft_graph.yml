@@ -1,0 +1,587 @@
+#file: noinspection SpellCheckingInspection
+- type: constructionGraph
+  id: ClothingOuterCoatRobesGoblin
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: goblin_tool
+      steps:
+      - material: Cloth
+        amount: 10
+        doAfter: 10
+  - node: goblin_tool
+    entity: ClothingOuterCoatRobesGoblin
+
+- type: constructionGraph
+  id: ClothingOuterEVASuitGoblin
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: goblin_tool
+      steps:
+      - component: GoblinClothingRobes
+        icon:
+          sprite: _NF/Clothing/OuterClothing/Coats/goblin_robes.rsi
+          state: icon
+        doAfter: 10
+      - tag: SuitEVA
+        icon:
+          sprite: Clothing/OuterClothing/Suits/eva.rsi
+          state: icon
+        doAfter: 10
+  - node: goblin_tool
+    entity: ClothingOuterEVASuitGoblin
+
+- type: constructionGraph
+  id: GoblinMadeClothingBackpackDuffelTrashBlue
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: goblin_tool
+      steps:
+      - component: GoblinPreciousTrashBag
+        icon:
+          sprite: Objects/Specific/Janitorial/trashbag.rsi
+          state: blue-icon-0
+        doAfter: 0.5
+      - component: GoblinPreciousTrashBag
+        icon:
+          sprite: Objects/Specific/Janitorial/trashbag.rsi
+          state: blue-icon-0
+        doAfter: 0.5
+      - material: Cable
+        amount: 5
+        doAfter: 0.5
+  - node: goblin_tool
+    entity: GoblinMadeClothingBackpackDuffelTrashBlue
+
+- type: constructionGraph
+  id: GoblinMadeClothingBackpackTrashBlue
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: goblin_tool
+      steps:
+      - component: GoblinPreciousTrashBag
+        icon:
+          sprite: Objects/Specific/Janitorial/trashbag.rsi
+          state: blue-icon-0
+        doAfter: 0.5
+      - material: Cable
+        amount: 5
+        doAfter: 0.5
+  - node: goblin_tool
+    entity: GoblinMadeClothingBackpackTrashBlue
+
+# Tools
+- type: constructionGraph
+  id: GoblinMadeMultitool
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: goblin_tool
+      steps:
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: cheesiehonkers-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: boritos-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: chips-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: energybar-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: cheesiehonkers-trash
+        doAfter: 0.2
+      - material: Cable
+        amount: 2
+        doAfter: 0.5
+  - node: goblin_tool
+    entity: GoblinMadeMultitool
+
+- type: constructionGraph
+  id: GoblinMadeWirecutter
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: goblin_tool
+      steps:
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: cheesiehonkers-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: boritos-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: chips-trash
+        doAfter: 0.2
+      - material: Cable
+        amount: 2
+        doAfter: 0.5
+  - node: goblin_tool
+    entity: GoblinMadeWirecutter
+
+- type: constructionGraph
+  id: GoblinMadeScrewdriver
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: goblin_tool
+      steps:
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: cheesiehonkers-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: boritos-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: chips-trash
+        doAfter: 0.2
+      - material: Cable
+        amount: 2
+        doAfter: 0.5
+  - node: goblin_tool
+    entity: GoblinMadeScrewdriver
+
+- type: constructionGraph
+  id: GoblinMadeCrowbar
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: goblin_tool
+      steps:
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: cheesiehonkers-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: boritos-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: chips-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: energybar-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: cheesiehonkers-trash
+        doAfter: 0.2
+      - material: Cable
+        amount: 2
+        doAfter: 0.5
+  - node: goblin_tool
+    entity: GoblinMadeCrowbar
+
+- type: constructionGraph
+  id: GoblinMadeWrench
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: goblin_tool
+      steps:
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: cheesiehonkers-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: boritos-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: chips-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: energybar-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: cheesiehonkers-trash
+        doAfter: 0.2
+      - material: Cable
+        amount: 2
+        doAfter: 0.5
+  - node: goblin_tool
+    entity: GoblinMadeWrench
+
+- type: constructionGraph
+  id: GoblinMadeWelder
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: goblin_tool
+      steps:
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: cheesiehonkers-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: boritos-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: chips-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: energybar-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: cheesiehonkers-trash
+        doAfter: 0.2
+      - material: Cable
+        amount: 2
+        doAfter: 0.5
+  - node: goblin_tool
+    entity: GoblinMadeWelderEmpty
+
+- type: constructionGraph
+  id: GoblinMadeMiniHoe
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: goblin_tool
+      steps:
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: cheesiehonkers-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: boritos-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: chips-trash
+        doAfter: 0.2
+      - material: Cable
+        amount: 2
+        doAfter: 0.5
+  - node: goblin_tool
+    entity: GoblinMadeMiniHoe
+
+- type: constructionGraph
+  id: GoblinMadeMiningDrill
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: goblin_tool
+      steps:
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: cheesiehonkers-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: boritos-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: chips-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: energybar-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: cheesiehonkers-trash
+        doAfter: 0.2
+      - material: Cable
+        amount: 2
+        doAfter: 0.5
+  - node: goblin_tool
+    entity: GoblinMadeMiningDrill
+
+- type: constructionGraph
+  id: GoblinMadeTrayScanner
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: goblin_tool
+      steps:
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: cheesiehonkers-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: boritos-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: chips-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: energybar-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: cheesiehonkers-trash
+        doAfter: 0.2
+      - material: Cable
+        amount: 2
+        doAfter: 0.5
+  - node: goblin_tool
+    entity: GoblinMadeTrayScanner
+
+- type: constructionGraph
+  id: GoblinMadeRemoteSignaller
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: goblin_tool
+      steps:
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: cheesiehonkers-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: boritos-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: chips-trash
+        doAfter: 0.2
+      - material: Cable
+        amount: 2
+        doAfter: 0.5
+  - node: goblin_tool
+    entity: GoblinMadeRemoteSignaller
+
+- type: constructionGraph
+  id: GoblinMadeLantern
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: goblin_tool
+      steps:
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: cheesiehonkers-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: boritos-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: chips-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: energybar-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: cheesiehonkers-trash
+        doAfter: 0.2
+      - material: Cable
+        amount: 2
+        doAfter: 0.5
+  - node: goblin_tool
+    entity: GoblinMadeLantern
+
+- type: constructionGraph
+  id: GoblinMadePowerCellDepleted
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: goblin_tool
+      steps:
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: cheesiehonkers-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: boritos-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: chips-trash
+        doAfter: 0.2
+      - material: Cable
+        amount: 2
+        doAfter: 0.5
+  - node: goblin_tool
+    entity: GoblinMadePowerCellDepleted
+
+- type: constructionGraph
+  id: CableApcStack10
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: goblin_tool
+      steps:
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: cheesiehonkers-trash
+        doAfter: 1
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: boritos-trash
+        doAfter: 1
+  - node: goblin_tool
+    entity: CableApcStack10
+
+# Furniture
+- type: constructionGraph
+  id: GoblinMadeBanner
+  start: start
+  graph:
+  - node: start
+    actions:
+    - !type:DestroyEntity {}
+    edges:
+    - to: goblin_tool
+      completed:
+      - !type:SnapToGrid { }
+      steps:
+      - material: Steel
+        amount: 2
+        doAfter: 1
+      - material: Cloth
+        amount: 2
+        doAfter: 1
+  - node: goblin_tool
+    entity: BannerGoblin01
+    edges:
+    - to: start
+      completed:
+      - !type:SpawnPrototype
+        prototype: SheetSteel1
+        amount: 2
+      - !type:SpawnPrototype
+        prototype: MaterialCloth1
+        amount: 2
+      steps:
+      - tool: Screwing
+        doAfter: 1
+
+# Vehicles
+- type: constructionGraph
+  id: GoblinMadeVehicleDumpster
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: goblin_tool
+      steps:
+      - component: GoblinVehicle
+        icon:
+          sprite: _NF/Structures/Storage/magnetbox.rsi
+          state: rubbishbox
+        doAfter: 1
+      - component: NFChairFolding
+        icon:
+          sprite: Structures/Furniture/folding_chair.rsi
+          state: folding
+        doAfter: 1
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: boritos-trash
+        doAfter: 0.2
+      - component: GoblinPreciousTrash
+        icon:
+          sprite: Objects/Consumable/Food/snacks.rsi
+          state: chips-trash
+        doAfter: 0.2
+      - material: Cable
+        amount: 2
+        doAfter: 0.5
+  - node: goblin_tool
+    entity: GoblinMadeVehicleDumpster

@@ -118,6 +118,8 @@
       - PosterContrabandGoobChuckler # Goobstation
       - PosterContrabandGoobYakub # Goobstation
       - PosterContrabandGoobRedFOSS # Goobstation
+      - PosterContrabandGoblinFront # Frontier
+      - PosterContrabandGoblinate # Frontier
     chance: 1
 
 - type: entity
@@ -202,4 +204,5 @@
       - PosterLegitOppenhopper
       - PosterLegitTyrone
       - PosterLegitHelio
+      - PosterLegitGoblinTinkerer # Frontier
     chance: 1

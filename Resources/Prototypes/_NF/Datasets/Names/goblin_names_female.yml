@@ -1,0 +1,6 @@
+# used this tool: https://www.fantasynamegenerators.com/goblin-names.php
+- type: localizedDataset
+  id: NamesGoblinFemale
+  values:
+    prefix: names-goblin-female-
+    count: 208

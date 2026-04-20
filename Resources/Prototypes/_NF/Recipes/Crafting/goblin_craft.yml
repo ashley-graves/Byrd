@@ -1,0 +1,221 @@
+#file: noinspection SpellCheckingInspection
+# Clothes
+- type: construction
+  id: clothingoutercoatrobesgoblin
+  graph: ClothingOuterCoatRobesGoblin
+  startNode: start
+  targetNode: goblin_tool
+  category: construction-category-goblin
+  entityWhitelist:
+    components:
+    - Goblin
+  objectType: Item
+
+- type: construction
+  id: clothingouterevasuitgoblin
+  graph: ClothingOuterEVASuitGoblin
+  startNode: start
+  targetNode: goblin_tool
+  category: construction-category-goblin
+  entityWhitelist:
+    components:
+    - Goblin
+  objectType: Item
+
+- type: construction
+  id: goblinmadeclothingbackpackduffeltrashblue
+  graph: GoblinMadeClothingBackpackDuffelTrashBlue
+  startNode: start
+  targetNode: goblin_tool
+  category: construction-category-goblin
+  entityWhitelist:
+    components:
+    - Goblin
+  objectType: Item
+
+- type: construction
+  id: goblinmadeclothingbackpacktrashblue
+  graph: GoblinMadeClothingBackpackTrashBlue
+  startNode: start
+  targetNode: goblin_tool
+  category: construction-category-goblin
+  entityWhitelist:
+    components:
+    - Goblin
+  objectType: Item
+
+# Tools
+- type: construction
+  id: goblinmademultitool
+  graph: GoblinMadeMultitool
+  startNode: start
+  targetNode: goblin_tool
+  category: construction-category-goblin
+  entityWhitelist:
+    components:
+    - Goblin
+  objectType: Item
+
+- type: construction
+  id: goblinmadewirecutter
+  graph: GoblinMadeWirecutter
+  startNode: start
+  targetNode: goblin_tool
+  category: construction-category-goblin
+  entityWhitelist:
+    components:
+    - Goblin
+  objectType: Item
+
+- type: construction
+  id: goblinmadescrewdriver
+  graph: GoblinMadeScrewdriver
+  startNode: start
+  targetNode: goblin_tool
+  category: construction-category-goblin
+  entityWhitelist:
+    components:
+    - Goblin
+  objectType: Item
+
+- type: construction
+  id: goblinmadecrowbar
+  graph: GoblinMadeCrowbar
+  startNode: start
+  targetNode: goblin_tool
+  category: construction-category-goblin
+  entityWhitelist:
+    components:
+    - Goblin
+  objectType: Item
+
+- type: construction
+  id: goblinmadewrench
+  graph: GoblinMadeWrench
+  startNode: start
+  targetNode: goblin_tool
+  category: construction-category-goblin
+  entityWhitelist:
+    components:
+    - Goblin
+  objectType: Item
+
+- type: construction
+  id: goblinmadewelder
+  graph: GoblinMadeWelder
+  startNode: start
+  targetNode: goblin_tool
+  category: construction-category-goblin
+  entityWhitelist:
+    components:
+    - Goblin
+  objectType: Item
+
+- type: construction
+  id: goblinmademinihoe
+  graph: GoblinMadeMiniHoe
+  startNode: start
+  targetNode: goblin_tool
+  category: construction-category-goblin
+  entityWhitelist:
+    components:
+    - Goblin
+  objectType: Item
+
+- type: construction
+  id: goblinmademiningdrill
+  graph: GoblinMadeMiningDrill
+  startNode: start
+  targetNode: goblin_tool
+  category: construction-category-goblin
+  entityWhitelist:
+    components:
+    - Goblin
+  objectType: Item
+
+- type: construction
+  id: goblinmadetrayscanner
+  graph: GoblinMadeTrayScanner
+  startNode: start
+  targetNode: goblin_tool
+  category: construction-category-goblin
+  entityWhitelist:
+    components:
+    - Goblin
+  objectType: Item
+
+- type: construction
+  id: goblinmaderemotesignaller
+  graph: GoblinMadeRemoteSignaller
+  startNode: start
+  targetNode: goblin_tool
+  category: construction-category-goblin
+  entityWhitelist:
+    components:
+    - Goblin
+  objectType: Item
+
+- type: construction
+  id: goblinmadelantern
+  graph: GoblinMadeLantern
+  startNode: start
+  targetNode: goblin_tool
+  category: construction-category-goblin
+  entityWhitelist:
+    components:
+    - Goblin
+  objectType: Item
+
+- type: construction
+  id: goblinmadepowercelldepleted
+  graph: GoblinMadePowerCellDepleted
+  startNode: start
+  targetNode: goblin_tool
+  category: construction-category-goblin
+  entityWhitelist:
+    components:
+    - Goblin
+  objectType: Item
+
+- type: construction
+  id: cableapcstack10
+  graph: CableApcStack10
+  startNode: start
+  targetNode: goblin_tool
+  category: construction-category-goblin
+  entityWhitelist:
+    components:
+    - Goblin
+  objectType: Item
+
+# Furniture / Structures
+- type: construction
+  id: bannergoblin01
+  graph: GoblinMadeBanner
+  startNode: start
+  targetNode: goblin_tool
+  category: construction-category-goblin
+  entityWhitelist:
+    components:
+    - Goblin
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+  - !type:TileNotBlocked
+
+  # Vehicles
+- type: construction
+  id: goblinmadevehicledumpster
+  graph: GoblinMadeVehicleDumpster
+  startNode: start
+  targetNode: goblin_tool
+  category: construction-category-goblin
+  entityWhitelist:
+    components:
+    - Goblin
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+  - !type:TileNotBlocked
