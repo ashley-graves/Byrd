@@ -4,5 +4,6 @@
 
 - type: loadout
   id: CDDogtags
-  equipment:
-    neck: CDDogtags
+  storage:
+    back:
+    - CDDogtags
