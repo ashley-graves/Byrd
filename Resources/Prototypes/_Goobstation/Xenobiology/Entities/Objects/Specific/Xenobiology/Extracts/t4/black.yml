@@ -30,7 +30,8 @@
       - !type:PlaySoundEffect
         sound: /Audio/Effects/Chemistry/bubbles.ogg
       - !type:AdjustReagent
-        reagent: AdvancedMutationToxin
+        # Byrd - AdvancedMutationToxin is currently a broken piece of shit. Just give fent for now.
+        reagent: Fentanyl
         amount: 10
     - reagents: [ Blood ]
       methods: [ Touch, Injection ]
