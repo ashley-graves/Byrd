@@ -32,7 +32,7 @@
 - type: gameMap
   id: Saltern
   mapName: 'Saltern'
-  mapPath: /Maps/_Omu/saltern.yml # Omu - Prisoner role mapping
+  mapPath: /Maps/_Byrd/saltern.yml # Byrd - Multiple fixes
   minPlayers: 0
   maxPlayers: 35
   fallback: true
