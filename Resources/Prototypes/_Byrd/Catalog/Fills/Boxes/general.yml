@@ -3,11 +3,15 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: Mercenary M.R.E.
+  name: mercenary survival kit
   parent: BoxCardboard
   id: BoxMREMerc
   description: An extended M.R.E. with more emergency supplies.
   components:
+  - type: Item
+    size: small
+    shape:
+    - 0,0,1,1
   - type: StorageFill
     contents:
       - id: DrinkMREFlask
