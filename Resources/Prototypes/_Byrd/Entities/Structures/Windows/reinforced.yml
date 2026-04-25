@@ -69,7 +69,6 @@
   - type: Icon
     sprite: Structures/Windows/directional.rsi
     state: reinforced_window
-    node: WindowUltraReinforcedDirectional
   - type: Appearance
   - type: DamageVisuals
     thresholds: [5, 10, 20]
