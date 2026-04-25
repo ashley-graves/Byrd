@@ -48,7 +48,7 @@
   - type: Appearance
   - type: DamageVisuals
     thresholds: [5, 10, 20]
-    damageDivisor: 250
+    damageDivisor: 25
     trackAllDamage: true
     damageOverlay:
       sprite: Structures/Windows/cracks.rsi
@@ -73,7 +73,7 @@
   - type: Appearance
   - type: DamageVisuals
     thresholds: [5, 10, 20]
-    damageDivisor: 250
+    damageDivisor: 25
     trackAllDamage: true
     damageOverlay:
       sprite: Structures/Windows/cracks_directional.rsi
