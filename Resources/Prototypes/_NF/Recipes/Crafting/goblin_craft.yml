@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 #file: noinspection SpellCheckingInspection
 # Clothes
 - type: construction
@@ -169,17 +173,6 @@
 - type: construction
   id: goblinmadepowercelldepleted
   graph: GoblinMadePowerCellDepleted
-  startNode: start
-  targetNode: goblin_tool
-  category: construction-category-goblin
-  entityWhitelist:
-    components:
-    - Goblin
-  objectType: Item
-
-- type: construction
-  id: cableapcstack10
-  graph: CableApcStack10
   startNode: start
   targetNode: goblin_tool
   category: construction-category-goblin
