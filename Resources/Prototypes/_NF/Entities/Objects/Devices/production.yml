@@ -9,7 +9,6 @@
   components:
   - type: MachineBoard
     prototype: ThrusterRogue
-    requirements:
-      Manipulator: 1
     stackRequirements:
+      Manipulator: 1
       Steel: 5

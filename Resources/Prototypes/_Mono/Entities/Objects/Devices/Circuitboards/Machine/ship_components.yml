@@ -70,7 +70,6 @@
   components:
   - type: MachineBoard
     prototype: ThrusterLarge
-    requirements:
-      Manipulator. 4
     stackRequirements:
+      Manipulator: 4
       Steel: 20
